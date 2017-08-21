@@ -1,0 +1,4 @@
+It was interesting to see how at points the Lorenz attractor would entirely flip and only become one sprial instead of being two as the values changed. The spacing between the lines also was interestingly vastly variable as you altered the different values. Overall it was interesting to see how the real time alterating of the variables could make the entire graph disappear quickly or took a lot of time. 
+
+
+I spent about 7 and a half hours on this assignment.

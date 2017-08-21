@@ -1,0 +1,29 @@
+HW 3: Textures and Lighting
+
+Jesse Bird
+
+This scene is meant to recreate an aircraft landing and takeoff with an ATC tower.
+
+I spent about 20 hours on this assignment, a vast majority of the time was
+getting the lighting to work and to get some of the textures to wrap correctly.
+
+There is adaptation from class example 15.
+Done on MacOS
+
+Keys
+l          Toggle lighting on/off
+t          toggle textures
+m          Toggles texture mode modulate/replace
+a/A        decrease/increase ambient light
+d/D        decrease/increase diffuse light
+s/S        decrease/increase specular light
+e/E        decrease/increase emitted light
+n/N        Decrease/increase shininess
+u/y         Lower/rise light elevation
+x          Toggle axes
+1/2        decrease/increase field of view
+o/p        increase/decrease dimensions
+arrows     Change view angle
+PgDn/PgUp  Zoom in and out
+0          Reset view angle
+ESC        Exit

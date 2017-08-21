@@ -1,0 +1,15 @@
+When the attractor is displayed in an orange color then it is at the standard and starting values. If one of the values is below then the graph will be green and if one of the values is above the standard then it will be red.
+
+These values of s,b,r are displayed in the lower left corner along with the viewing angle.
+
+Key bindings
+  s  	 increase s value 
+  a  	 decrease s value
+  b  	 increase b value
+  v  	 decrease b value
+  r  	 increase r value
+  e  	 decrease r value
+  arrows Change view angle
+  0      Reset view angle
+  ESC    Exit
+

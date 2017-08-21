@@ -1,0 +1,25 @@
+HW 2: Creating a 3D Scene
+
+Jesse Bird
+
+You can alternate between the Orthogonal and perspective modes with the arrow keys and other key bindings to
+manipulate the projection views. If you press the f key you can then switch into the first person camera
+which allows for manipulating the camera in this first person projection.
+
+This scene is meant to recreate an aircraft landing and takeoff with an ATC tower.
+
+I spent about 11 hours on this assignment, a vast majority of the time was getting the first
+person view to work properly between the modes.
+
+
+Keys
+  p          Toggle between perspective and orthogonal
+  1/2        Changes field of view for perspective
+  x          Toggle axes
+  arrows     Change view angle
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
+  f        toggle first person view
+  w/a/s/d    when in first person view, change camera orientation
+  e/q       up or down in first person camera

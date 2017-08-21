@@ -1,0 +1,71 @@
+Final Project
+
+Jesse Bird Summer 2017
+
+In order to run the program you can just make the project altogether.
+Then the only file you need to run is the final.c. I spent a lot of time with
+this project trying to get my Kinect fusion algorithm to work and to create a
+unique mesh file as part of the research that I am working on. In theory this
+would be able to have a live feed incoming from the Kinect sensor but unfortunately
+the Kinect fusion software proved more challenging as it would require
+many Github repos and installations of other dependencies to be within my project.
+
+The next part I worked on was the colored height-map for the mesh file
+values using the fragment shader technique. To get what I wanted was challenging
+but I ended up with a very nice result of creating a colored mesh file based
+on the height of certain positions in the file. This coloration took me much
+more time than expected to begin to understand how the vertex and fragment
+shaders worked entirely.
+
+I also added a way to simulate what the possible IMU data could be from the
+car in the scene. You can control this with W/A/S/D/Q/E and see the returned
+data print out at the bottom of the screen.
+
+This project will be useful in my continuing research as I can then take the
+real data given to me from a sensor and transpose it into this OpenGL
+application. It will allow any user to manipulate the car and see data.
+This user controlled movement allows for a simulation of the car on a mesh
+file while providing the given data.
+
+I feel like most of the time I spent on this project was figuring out the shaders
+and other techniques such as how to utilize the mesh file in way that could be
+useful for a front end application. I spent 80+ hours of my time on this project
+just trying to get many features to work that I feel once started just became
+more challenging as you got into them so I could not implement them. However,
+I learned a lot about OpenGL throughout this class and project making me very
+happy about the results I did achieve, especially I am most proud of my mesh
+coloration scheme.
+
+In a further application of this I would like to allow a way to read in the
+IMU data and Kinect mesh file in a real time mesh building application.
+
+What you can do:
+You can cycle through each of the objects individually to inspect how they were
+scanned by the Kinect sensor in the real-view. You can also move the car around
+the mesh file to indicate its IMU positional data on the mesh file. There is
+also a first person view and using the i key can start and stop the animation of
+the wheels of the car.
+
+Key bindings:
+
+  Normal View
+  w/s       forward/backward car position
+  a/d       left/Right car position
+  q/e       rotation car position
+  x         toggle axes
+  p         Toggle between orthogonal & perspective projections
+  l         Start/stop light movement
+  o         toggle objects
+  u/y       light Elevation
+  +/-       Zoom in and out
+  i         toggle car to spin
+  a         Toggle axes
+  arrows    Change view angle
+  0         Reset view angle
+  ESC       Exit
+
+  First Person view
+  f         first person view
+  w/s       forward/backward
+  a/d       rotate left/Right
+  q/e       up and down
